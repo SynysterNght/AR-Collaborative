@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: eceffd163324745a49c862857325ad73
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cube: {instanceID: 0}
+  - plane: {instanceID: 0}
+  - cylinder: {instanceID: 0}
+  - disk: {instanceID: 0}
+  - beam: {instanceID: 0}
+  - sphere: {instanceID: 0}
+  - camera: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
