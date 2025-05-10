@@ -108,12 +108,19 @@ This section provides detailed steps to replicate and run this project.
 
 * **Inside the App**
     * Wait until the session is created by the Headset, then start the application.
+    * The phone must first scan the QR code included in this document to orient its position inside the collaborative space.
     * Once inside the room, the phone will have different functionalities:
        * Next Object: Cycle through available shapes. (Depends on how many phone users are present in the room)
        * Next Color: Cycle through Red, Green and Blue colors for the shapes.
-       * Place Object: Places the displayed object onto the enviroment which is the table so the Headset user can grab them.
+       * Place Object: Places the displayed object onto the environment which is the table so the Headset user can grab them.
        * Reload Scene: Clears eveything on the screen and have to scan the QR Code again. 
 
+Here's a screenshot of the application:
+![Application Screenshot](Assets/Resources/Images/PhoneView.jpg)
+
+And here is the QR Code:
+   *
+![Application Screenshot](Assets/Resources/Images/MainPlayer.png)
 
 ### Running on VR Headset
 
@@ -146,3 +153,6 @@ This section provides detailed steps to replicate and run this project.
        * Reload Arena: Clears the table and reset the position.
        * Grab Interaction: The Headset user can grab the transparent table and move it according to its convenience.
        * Legend Board: Shows available and possible objects with possible colors.
+      
+Here's a screenshot of the application:
+![Application Screenshot](Assets/Resources/Images/headsetview.png)
