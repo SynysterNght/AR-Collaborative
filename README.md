@@ -106,6 +106,15 @@ This section provides detailed steps to replicate and run this project.
     * Connect your Android device via USB.
     * Click **Build And Run** to build the application and install it on your connected device.
 
+* **Inside the App**
+    * Wait until the session is created by the Headset, then start the application.
+    * Once inside the room, the phone will have different functionalities:
+       * Next Object: Cycle through available shapes. (Depends on how many phone users are present in the room)
+       * Next Color: Cycle through Red, Green and Blue colors for the shapes.
+       * Place Object: Places the displayed object onto the enviroment which is the table so the Headset user can grab them.
+       * Reload Scene: Clears eveything on the screen and have to scan the QR Code again. 
+
+
 ### Running on VR Headset
 
 * **Prerequisites:**
@@ -128,3 +137,12 @@ This section provides detailed steps to replicate and run this project.
     * In the **Build Settings** window, ensure **Android** is selected as the platform.
     * Connect your VR headset via USB.
     * Click **Build And Run** to build the application and install it on your connected device.
+
+* **Inside the App**
+    * Start the application to create the session.
+    * Once inside the room, the headset will have different functionalities available:
+       * ScoreBoard: Displays the timer and current score of the game.
+       * Start Game: A poke button that starts the game with a randomized objective and a timer of 2 minutes when pressed.
+       * Reload Arena: Clears the table and reset the position.
+       * Grab Interaction: The Headset user can grab the transparent table and move it according to its convenience.
+       * Legend Board: Shows available and possible objects with possible colors.
